@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "687906292644",
+    "project_id": "revo-smartlock",
+    "storage_bucket": "revo-smartlock.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:687906292644:android:62b402d1d638b53f06b731",
+        "android_client_info": {
+          "package_name": "com.joanhack.smartlock"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBye1CAYoncvTq4Y05oS5VYEoSj7lZPmcw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
