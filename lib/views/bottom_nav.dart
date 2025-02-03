@@ -9,34 +9,34 @@ class BottomNav extends StatelessWidget {
   void _onItemTapped(BuildContext context, int index) {
     switch (index) {
       case 0:
-        Navigator.pushNamed(context, '/home');
+        Navigator.pushReplacementNamed(context, '/home');
         break;
       case 1:
         if (isConnected) {
-          Navigator.pushNamed(context, '/lock');
+          Navigator.pushReplacementNamed(context, '/lock');
         } else {
-          Navigator.pushNamed(context, '/login');
+          Navigator.pushReplacementNamed(context, '/login');
         }
         break;
       case 2:
         if (isConnected) {
-          Navigator.pushNamed(context, '/add_lock');
+          Navigator.pushReplacementNamed(context, '/add_lock');
         } else {
-          Navigator.pushNamed(context, '/login');
+          Navigator.pushReplacementNamed(context, '/login');
         }
         break;
       case 3:
         if (isConnected) {
-          Navigator.pushNamed(context, '/notifications');
+          Navigator.pushReplacementNamed(context, '/notifications');
         } else {
-          Navigator.pushNamed(context, '/login');
+          Navigator.pushReplacementNamed(context, '/login');
         }
         break;
       case 4:
         if (isConnected) {
-          Navigator.pushNamed(context, '/profile');
+          Navigator.pushReplacementNamed(context, '/profile');
         } else {
-          Navigator.pushNamed(context, '/login');
+          Navigator.pushReplacementNamed(context, '/login');
         }
         break;
     }
